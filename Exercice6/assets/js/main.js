@@ -8,7 +8,7 @@ while ( result > 1 ) {
     result = firstNumber / secondNumber;
     let li = document.createElement('li');
     li.textContent = firstNumber;
-     ul.appendChild(li);
+    ul.appendChild(li);
     break 
 } 
 
