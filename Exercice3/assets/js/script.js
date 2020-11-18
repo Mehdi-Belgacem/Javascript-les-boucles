@@ -10,4 +10,8 @@ for ( let allLanguages = 0; allLanguages <= 7; allLanguages++) {
 
 // let += ...... raccourcis de let = let + .... \\
 
-
+/* languages.foreach(currentLanguage => {
+    let p = document.createElement('p');
+    p.hinnerHTML = currentLanguage;
+    document.body.appendChild(p);
+}); */ // Solution à privilégier \\
